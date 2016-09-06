@@ -1,0 +1,7 @@
+{{welcome_message}}
+<br>
+  <form id="url_form" method="post" action="/InPowered/parse_url/" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" name="url" placeholder="Enter URL: https://www.analyticsvidhya.com/blog/2015/10/beginner-guide-web-scraping-beautiful-soup-python"/>
+    <input type="submit" name="submit" value="Enter URL" />
+</form>
