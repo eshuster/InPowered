@@ -7,7 +7,6 @@ class ParsedPage(models.Model):
   page_description = models.CharField(max_length=50, blank=True)
   page_author = models.CharField(max_length=50, blank=True)
   page_date = models.CharField(max_length=50, blank=True)
-
   page_polarity = models.CharField(max_length=50, blank=True)
   page_subjectivity = models.CharField(max_length=50, blank=True)
   page_related_confidence_numbers = models.CharField(max_length=50, blank=True)
